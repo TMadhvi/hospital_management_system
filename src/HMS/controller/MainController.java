@@ -77,20 +77,20 @@ public class MainController {
 
 				break;
 			}
-//
-//			// APPOINTMENT
-//			case 4: {
-//
-//				AppointmentDAO dao = new AppointmentDAO();
-//
-//				AppointmentView view = new AppointmentView();
-//
-//				AppointmentController controller = new AppointmentController(dao,view);
-//				controller.run();
-//
-//				break;
-//			
-//			}
+
+			// APPOINTMENT
+			case 4: {
+
+				AppointmentDAO dao = new AppointmentDAO();
+
+				AppointmentView view = new AppointmentView();
+
+				AppointmentController controller = new AppointmentController(dao,view);
+				controller.run();
+
+				break;
+			
+			}
 
 			// BILL
 			case 5: {
