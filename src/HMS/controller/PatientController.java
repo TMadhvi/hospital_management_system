@@ -69,26 +69,25 @@ public class PatientController {
 
 				int patientId = view.getPatientId();
 
-//				String firstName = view.getPatientFirstName();
-//
-//				String lastName = view.getPatientLastName();
-//
-//				String gender = view.getPatientGender();
-//
-//				LocalDate dob = view.getPatientDateOfBirth();
-//
-//				String phone = view.getPatientPhone();
-//
-//				String email = view.getPatientEmail();
-//
-//				String address = view.getPatientAddress();
-//
-//				String bloodGroup = view.getPatientBloodGroup();
+				String firstName = view.getPatientFirstName();
+
+				String lastName = view.getPatientLastName();
+
+				String gender = view.getPatientGender();
+
+				LocalDate dob = view.getPatientDateOfBirth();
+
+				String phone = view.getPatientPhone();
+
+				String email = view.getPatientEmail();
+
+				String address = view.getPatientAddress();
+
+				String bloodGroup = view.getPatientBloodGroup();
 				LocalDate regdate = view.getregistrationDate();
 
 				patients p = new patients(patientId,regdate);
 				
-				//firstName, lastName, gender, dob, phone, email, address, bloodGroup,
 
 				p.setPatientId(patientId);
 				p.setRegistrationDate(regdate);
